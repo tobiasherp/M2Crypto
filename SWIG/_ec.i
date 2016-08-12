@@ -4,7 +4,7 @@
  Most code originally from _dsa.i, _rsa.i and _dh.i and adjusted for EC use.
 */
 
-%include <openssl/opensslconf.h>
+%include <openssl/opensslconf-x86_64.h>
 
 #if OPENSSL_VERSION_NUMBER < 0x0090800fL || defined(OPENSSL_NO_EC)
 #undef OPENSSL_NO_EC

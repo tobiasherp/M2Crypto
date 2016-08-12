@@ -9,7 +9,7 @@ Copyright (c) 2009-2010 Heikki Toivonen. All rights reserved.
 
 */
 
-%include <openssl/opensslconf.h>
+%include <openssl/opensslconf-x86_64.h>
 
 %{
 #include <assert.h>
